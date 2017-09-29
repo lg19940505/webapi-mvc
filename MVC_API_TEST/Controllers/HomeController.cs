@@ -44,5 +44,13 @@ namespace MVC_API_TEST.Controllers
 
             return View();
         }
+
+        public ActionResult test2()
+        {
+            ViewBag.Message = "Your contact page.";
+
+            return View();
+        }
+
     }
 }
